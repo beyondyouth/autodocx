@@ -1,0 +1,218 @@
+{
+    "Title": {
+        "paragraph_format": {
+            "alignment": "CENTER",
+            "first_line_indent": 0,
+            "left_indent": 0,
+            "line_spacing": 1,
+            "space_before": 12,
+            "space_after": 3
+        },
+        "font_format": {
+            "bold": true,
+            "color": "0x000000",
+            "italic": false,
+            "name": "宋体",
+            "size": 16,
+            "underline": false
+        }
+    },
+    "Heading 1": {
+        "paragraph_format": {
+            "alignment": "LEFT",
+            "first_line_indent": 0,
+            "left_indent": 0,
+            "line_spacing": 1.5,
+            "space_before": 5,
+            "space_after": 5
+        },
+        "font_format": {
+            "bold": true,
+            "color": "0x000000",
+            "italic": false,
+            "name": "黑体",
+            "size": 16,
+            "underline": false
+        }
+    },
+    "Heading 2": {
+        "paragraph_format": {
+            "alignment": "LEFT",
+            "first_line_indent": 0,
+            "left_indent": 0,
+            "line_spacing": 1.5,
+            "space_before": 5,
+            "space_after": 5
+        },
+        "font_format": {
+            "bold": true,
+            "color": "0x000000",
+            "italic": false,
+            "name": "黑体",
+            "size": 14,
+            "underline": false
+        }
+    },
+    "Heading 3": {
+        "paragraph_format": {
+            "alignment": "LEFT",
+            "first_line_indent": 0,
+            "left_indent": 0,
+            "line_spacing": 1.5,
+            "space_before": 5,
+            "space_after": 5
+        },
+        "font_format": {
+            "bold": true,
+            "color": "0x000000",
+            "italic": false,
+            "name": "黑体",
+            "size": 12,
+            "underline": false
+        }
+    },
+    "Heading 4": {
+        "paragraph_format": {
+            "alignment": "LEFT",
+            "first_line_indent": 0,
+            "left_indent": 0,
+            "line_spacing": 1.5,
+            "space_before": 5,
+            "space_after": 5
+        },
+        "font_format": {
+            "bold": true,
+            "color": "0x000000",
+            "italic": false,
+            "name": "黑体",
+            "size": 12,
+            "underline": false
+        }
+    },
+    "Heading 5": {
+        "paragraph_format": {
+            "alignment": "LEFT",
+            "first_line_indent": 0,
+            "left_indent": 0,
+            "line_spacing": 1.5,
+            "space_before": 5,
+            "space_after": 5
+        },
+        "font_format": {
+            "bold": true,
+            "color": "0x000000",
+            "italic": false,
+            "name": "黑体",
+            "size": 12,
+            "underline": false
+        }
+    },
+    "Heading 6": {
+        "paragraph_format": {
+            "alignment": "LEFT",
+            "first_line_indent": 0,
+            "left_indent": 0,
+            "line_spacing": 1.5,
+            "space_before": 5,
+            "space_after": 5
+        },
+        "font_format": {
+            "bold": true,
+            "color": "0x000000",
+            "italic": false,
+            "name": "黑体",
+            "size": 12,
+            "underline": false
+        }
+    },
+    "Heading 7": {
+        "paragraph_format": {
+            "alignment": "LEFT",
+            "first_line_indent": 0,
+            "left_indent": 0,
+            "line_spacing": 1.5,
+            "space_before": 5,
+            "space_after": 5
+        },
+        "font_format": {
+            "bold": true,
+            "color": "0x000000",
+            "italic": false,
+            "name": "黑体",
+            "size": 12,
+            "underline": false
+        }
+    },
+    "toc": {
+        "paragraph_format": {
+            "alignment": "LEFT",
+            "first_line_indent": 0,
+            "left_indent": 0,
+            "line_spacing": 1.5,
+            "space_before": 5,
+            "space_after": 5
+        },
+        "font_format": {
+            "bold": false,
+            "color": "0x000000",
+            "italic": false,
+            "name": "宋体",
+            "size": 10.5,
+            "underline": false
+        }
+    },
+    "图": {
+        "paragraph_format": {
+            "alignment": "CENTER",
+            "first_line_indent": 0,
+            "left_indent": 0,
+            "line_spacing": 1,
+            "space_before": 5,
+            "space_after": 5
+        },
+        "font_format": {
+            "bold": false,
+            "color": "0x000000",
+            "italic": false,
+            "name": "黑体",
+            "size": 9,
+            "underline": false
+        }
+    },
+    "表": {
+        "paragraph_format": {
+            "alignment": "CENTER",
+            "first_line_indent": 0,
+            "left_indent": 0,
+            "line_spacing": 1,
+            "space_before": 5,
+            "space_after": 5
+        },
+        "font_format": {
+            "bold": false,
+            "color": "0x000000",
+            "italic": false,
+            "name": "黑体",
+            "size": 9,
+            "underline": false
+        }
+    },
+    "Normal": {
+        "paragraph_format": {
+            "alignment": "LEFT",
+            "first_line_indent": 21,
+            "left_indent": 0,
+            "line_spacing": 1.5,
+            "space_before": 0,
+            "space_after": 0
+        },
+        "font_format": {
+            "bold": false,
+            "color": "0x000000",
+            "italic": false,
+            "name": "宋体",
+            "size": 10.5,
+            "underline": false
+        }
+    }
+}
