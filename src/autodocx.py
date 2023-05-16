@@ -11,8 +11,8 @@ def autoParagraph(document, paragraph_config):
         "LEFT": WD_ALIGN_PARAGRAPH.LEFT,
         "RIGHT": WD_ALIGN_PARAGRAPH.RIGHT,
     }
-    for paragraph in document.paragraphs:
-        print(paragraph.style.name)
+    for i, paragraph in enumerate(document.paragraphs):
+        print(i, paragraph.style.name)
         if 'graphicData' in paragraph._p.xml:
             paragraph.paragraph_format.first_line_indent = 0
             paragraph.paragraph_format.left_indent = 0
@@ -136,11 +136,16 @@ if __name__ == "__main__":
 
     document = Document(srcPath)
     paragraph_config = None
-    with open("/Users/book/Workspace/Python/autodoc/configs/paragraph.json") as f:
+    config_path = os.path.dirname(__file__) + "/../configs/"
+    print(config_path)
+    with open(config_path + "paragraph.json") as f:
         paragraph_config = json.load(f)
+    print("载入段落配置完成")
     print(paragraph_config)
-    with open("/Users/book/Workspace/Python/autodoc/configs/table.json") as f:
+    with open(config_path + "table.json") as f:
         table_config = json.load(f)
+    print("载入表格配置完成")
+    print(table_config)
     autoParagraph(document, paragraph_config)
     autoTable(document, table_config)
     document.save(dstPath)
